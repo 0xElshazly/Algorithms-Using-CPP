@@ -2,7 +2,7 @@
 	-----[Pseudocode Implementation]-----
 	insertionSort(arr, size)
 	begin
-	|  for i := 1 to length[A] - 1 do
+	|  for i := 1 to size do
 	|  begin
 	|  |	temp := A[i];
 	|  |	j := i - 1;
