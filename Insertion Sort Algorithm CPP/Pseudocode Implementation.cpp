@@ -4,14 +4,14 @@
 	begin
 	|  for i := 1 to size do
 	|  begin
-	|  |	temp := A[i];
+	|  |	temp := arr[i];
 	|  |	j := i - 1;
-	|  |	while j >= 0 and A[j] > temp do
+	|  |	while j >= 0 and arr[j] > temp do
 	|  |	begin
-	|  |	 | A[j + 1] := A[j];
+	|  |	 | arr[j + 1] := arr[j];
 	|  |	 | j := j - 1;
 	|  |	end;
-	|  |	A[j + 1] := temp;
+	|  |	arr[j + 1] := temp;
 	| end;
 	end;
 */
