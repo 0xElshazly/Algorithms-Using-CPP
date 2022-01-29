@@ -1,6 +1,7 @@
 // Recursive insertion sort algorithm using c++.
 #include <iostream>
 using namespace std;
+// Function to sort an array using insertion sort recursive 
 void insertionSortRecursive(int arr[], int size) {
 	//  Base case
 	if (size <= 1)
